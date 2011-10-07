@@ -1,7 +1,8 @@
 caution
 ------------
 This is NOT new version of [tm_twitter_api][tm_twitter_api]. This library doesn't keep compatiblility with tm_twitter_api.
-Also, this library is still under working. I don't recommend to use this library for your products at this time.
+Also, this library is still under working. I'll add much imcompatible change to this library.
+I don't recommend to use this library for your products at this time.
 
   [tm_twitter_api]: https://github.com/mogya/tm_twitter_api
 
@@ -16,12 +17,12 @@ This is a library to call [twitter api][twitterapi] from [titanium mobile][tm] p
 How to use
 ------------
 
-  var TwitterApi = require('lib/twitter_api').TwitterApi;
-  var twitterApi = new TwitterApi({
+	var TwitterApi = require('lib/twitter_api').TwitterApi;
+	var twitterApi = new TwitterApi({
       consumerKey:'YOUR CONSUMER KEY of twitter API',
       consumerSecret:'YOUR SECRET of twitter API'
-  });
-  twitterApi.authorize(); 
+	});
+	twitterApi.authorize(); 
 
 When you call twitterApi.authorize, the library open a web browser UI to request the oauth authorization process if needs.
 
