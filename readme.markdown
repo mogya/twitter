@@ -1,11 +1,3 @@
-caution
-------------
-This is NOT new version of [tm_twitter_api][tm_twitter_api]. This library doesn't keep compatiblility with tm_twitter_api.
-Also, this library is still under working. I'll add much imcompatible change to this library.
-I don't recommend to use this library for your products at this time.
-
-  [tm_twitter_api]: https://github.com/mogya/tm_twitter_api
-
 twitter\_api.js
 ------------
 
